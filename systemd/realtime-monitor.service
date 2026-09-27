@@ -1,0 +1,12 @@
+[Unit]
+Description=RealtimeX PREEMPT_RT Latency Analyzer
+After=multi-user.target
+
+[Service]
+Type=oneshot
+WorkingDirectory=/opt/realtimex
+ExecStart=/opt/realtimex/bin/realtimex --config /opt/realtimex/config/realtime_config.json
+User=root
+
+[Install]
+WantedBy=multi-user.target

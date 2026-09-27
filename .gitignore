@@ -1,0 +1,9 @@
+build/
+.vscode/
+.idea/
+*.o
+*.a
+*.log
+*.csv
+*.swp
+.DS_Store

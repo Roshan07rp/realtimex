@@ -1,0 +1,9 @@
+{
+  "period_us": 1000,
+  "iterations": 10000,
+  "deadline_us": 1000,
+  "scheduler": "SCHED_OTHER",
+  "priority": 0,
+  "cpu": -1,
+  "csv_output": "realtimex_results.csv"
+}
